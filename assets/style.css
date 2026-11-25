@@ -1,0 +1,31 @@
+:root{--bg:#F8F7F3;--ink:#243D38;--muted:#5F6B65;--green:#355E4F;--pale:#EAF0E7;--line:#E5E8DF;--accent:#DB784E}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--green);text-underline-offset:3px}
+.wrap{max-width:760px;margin:0 auto;padding:0 24px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--green);text-decoration:none;font-size:19px}
+.brand img{width:34px;height:34px;border-radius:8px}
+nav a{margin-left:18px;font-size:15px;color:var(--muted);text-decoration:none}
+nav a:hover,nav a[aria-current]{color:var(--green)}
+h1,h2,.serif{font-family:ui-serif,"New York",Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.01em;color:var(--ink)}
+h1{font-size:44px;line-height:1.12;margin:56px 0 12px}
+h2{font-size:27px;margin:44px 0 10px}
+h3{font-size:18px;margin:28px 0 6px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-top:56px}
+.eyebrow+h1{margin-top:8px}
+.lead{font-size:19px;color:var(--muted)}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px 24px;margin:18px 0}
+.note{background:var(--pale);border-radius:16px;padding:16px 20px;color:var(--muted);font-size:15px}
+.btn{display:inline-block;background:var(--green);color:#fff;text-decoration:none;font-weight:600;padding:14px 24px;border-radius:16px}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:600;list-style-position:outside}
+details p{margin:8px 0 0;color:var(--muted)}
+ul{padding-left:22px}
+li{margin:4px 0}
+.todo{background:#FFE7A3;color:#5A4300;padding:0 4px;border-radius:4px}
+footer{margin-top:72px;border-top:1px solid var(--line);padding:28px 0 48px;font-size:14px;color:var(--muted)}
+footer a{color:var(--muted);margin-right:16px}
+@media (max-width:600px){h1{font-size:34px}nav a{margin-left:12px}}
